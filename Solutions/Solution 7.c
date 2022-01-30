@@ -1,10 +1,11 @@
 #include<stdio.h>
+#include<conio.h>
 
-int main()
+Void main()
 
 {
 
-    int n,m;
+    int n,m,i,j,k;
 
 
     printf("Enter the number of rows:");
@@ -16,12 +17,12 @@ int main()
     m=n;
 
 
-    for(int i=n; i>0; i--)
+    for( i=n; i>0; i--)
 
     {
 
 
-        for(int j=1; j<=m+1; j++)
+        for( j=1; j<=m+1; j++)
 
         {
 
@@ -32,7 +33,7 @@ int main()
 
         }
 
-        for(int k=1; k<=2*i-1; k++)
+        for( k=1; k<=2*i-1; k++)
 
         {
 
@@ -48,19 +49,7 @@ int main()
        
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-return 0;
+getch();
 
 
 }
